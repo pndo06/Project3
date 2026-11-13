@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 Interactive Visualization</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="vis.js"></script>
+</head>
+<body>
+    <header>
+      <h1>Global Temperatures Over Time</h1>
+      <p>Exploring how global temperatures change under different emissions scenarios (2015-2100)</p>
+    </header>
+
+  <main>
+    <section class="controls">
+      <h3>Emissions Scenarios</h3>
+      <div class="scenario-buttons">
+        <button class="scenario-button active" data-scenario="SSP1-2.6">
+          Low Emissions
+        </button>
+
+        <button class="scenario-button active" data-scenario="SSP2-4.5">
+          Moderate Emissions
+        </button>
+
+        <button class="scenario-button active" data-scenario="SSP5-8.5">
+          High Emissions
+        </button>
+      </div>
+
+      <h3>Select Time Period</h3>
+      <div class="slider-container">
+        <label for="startYear">
+          Start Year: <span id="startYearValue">2015</span>
+        </label>
+
+        <input
+          type="range"
+          id="startYear"
+          min="2015"
+          max="2100"
+          value="2015"
+        >
+
+        <label for="endYear">
+          End Year: <span id="endYearValue">2100</span>
+        </label>
+
+        <input
+          type="range"
+          id="endYear"
+          min="2015"
+          max="2100"
+          value="2100"
+        >
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <div id="chart"></div>
+      <div id="summary-cards"></div>
+    </section>
+  </main>
+</body>
+</html>
