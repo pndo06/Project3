@@ -102,17 +102,6 @@ const infoText = infoBox.append("text")
   .attr("fill", "white")
   .style("font-size", "12px");
 
-// Warming rate
-function warmingRate(values) {
-  const startTemp = values[0].global_temp_c;
-  const endTemp = values[values.length - 1].global_temp_c;
-
-  const years = endYear - startYear;
-  const change = endTemp - startTemp;
-
-  return years === 0 ? 0 : (change / years) * 10;
-}
-
 // Summary cards
 function updateSummary() {
   const container = d3.select("#summary-cards");
