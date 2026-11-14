@@ -63,7 +63,8 @@ We developed the project with the help of Python for data preparation and D3.js 
 A consistent dataset across all three scenarios was created. A line graph with associated axes was created along with a number of scales. A number of features were implemented including scenario filtering as well as year selection and associated controls. All of the interactions on the page were connected up to the numerical summary cards.
 
 A key challenge when creating the visualization was making sure it worked correctly for all user input. All lines are a function of the selected scenarios, and all highlighted time periods and their respective statistics are a function of the range of years selected by the user.
-Both team members contributed equally to the project, collaborating on data preparation, visualization design, implementation, testing, and revisions. We regularly reviewed each other's work and provided feedback to improve the chart's clarity, functionality, and user experience. Most of our time was spent preparing the data, implementing the interactive features, and ensuring that the scenario filters, year sliders, and summary statistics worked together correctly.
+Both team members contributed equally to the project, collaborating on data preparation, visualization design, implementation, testing, and revisions. We regularly reviewed each other's work and provided feedback to improve the chart's clarity, functionality, and user experience. Most of our time was spent preparing the data, implementing the interactive features, and ensuring that the scenario filters, year sliders, and summary statistics worked together correctly. In total, we spent approximately 20 combined hours developing the project, with 5 hours spent on data preparation, 10 hours on visualization and implementation, and 5 hours on testing and revisions.
+
 
 
 ## 6. Findings and Takeaways
@@ -73,3 +74,5 @@ The visualization illustrates how different emissions pathways produce increasin
 For low-emissions, the temperatures are increasing at a slow and constant rate and appear to stabilize in the latter half of this century. The moderate case increases at a slower rate than the high case but, in the end, increases in temperature. The high-emissions case has the largest increase in projected global temperatures by the year 2100.
 
 A key point of the comparison of scenarios is that their differences become more apparent the longer the time frame that is considered. The possibility to study differences of development on a shorter time frame is, on the other hand, provided by the interaction with the year-range selection.
+
+
