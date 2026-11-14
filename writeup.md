@@ -22,6 +22,8 @@ The summary cards provide additional statistics to compare the different pathway
 
 The visualisation and interaction together form a coherent design for the comparison of climate change forecast under different scenarios of emissions of greenhouse gases.
 
+We also considered using a bar chart, but decided that a line chart would be more useful because it shows continuous temperature changes over time and makes it easier to compare the three scenarios.
+
 ## 3. Data Processing and Transformations
 
 The data for this project is from CMIP6 climate projections for three Shared Socioeconomic Pathways (SSPs): SSP1-2.6, SSP2-4.5, and SSP5-8.5.
